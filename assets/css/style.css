@@ -30,6 +30,7 @@ h3 {
 .hidden-heading {
     display: none;
 }
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -197,6 +198,16 @@ main {
 #times h3 {
     /* Override the heading color set in general styles */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Foooter */
